@@ -487,10 +487,7 @@ the first tuple to the last index. As with a <cite>LineString</cite>, repeated p
 the ordered sequence are allowed, but may incur performance penalties and
 should be avoided. A <cite>LinearRing</cite> may not cross itself, and may not touch
 itself at a single point.</p>
-<p>(<a class="reference external" href="./code/linearring.py">Source code</a>, <a class="reference external" href="./code/linearring.png">png</a>, <a class="reference external" href="./code/linearring.hires.png">hires.png</a>, <a class="reference external" href="./code/linearring.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/linearring.png" src="_images/linearring.png" />
-</div>
+<p>(<a class="reference external" href="./code/linearring.py">Source code</a>)</p>
 <p>Figure 2. A valid <cite>LinearRing</cite> on the left, an invalid self-touching
 <cite>LinearRing</cite> on the right. The points that describe the rings are shown in
 grey. A ring&#8217;s boundary is <cite>empty</cite>.</p>
@@ -544,18 +541,12 @@ feature.</p>
 <p>Rings of a <cite>valid</cite> <cite>Polygon</cite> may not cross each other, but may touch at a
 single point only.  Again, Shapely will not prevent the creation of invalid
 features, but exceptions will be raised when they are operated on.</p>
-<p>(<a class="reference external" href="./code/polygon.py">Source code</a>, <a class="reference external" href="./code/polygon.png">png</a>, <a class="reference external" href="./code/polygon.hires.png">hires.png</a>, <a class="reference external" href="./code/polygon.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/polygon.png" src="_images/polygon.png" />
-</div>
+<p>(<a class="reference external" href="./code/polygon.py">Source code</a>)</p>
 <p>Figure 3. On the left, a valid <cite>Polygon</cite> with one interior ring that touches
 the exterior ring at one point, and on the right a <cite>Polygon</cite> that is <cite>invalid</cite>
 because its interior ring touches the exterior ring at more than one point. The
 points that describe the rings are shown in grey.</p>
-<p>(<a class="reference external" href="./code/polygon2.py">Source code</a>, <a class="reference external" href="./code/polygon2.png">png</a>, <a class="reference external" href="./code/polygon2.hires.png">hires.png</a>, <a class="reference external" href="./code/polygon2.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/polygon2.png" src="_images/polygon2.png" />
-</div>
+<p>(<a class="reference external" href="./code/polygon2.py">Source code</a>)</p>
 <p>Figure 4. On the left, a <cite>Polygon</cite> that is <cite>invalid</cite> because its exterior and
 interior rings touch along a line, and on the right, a <cite>Polygon</cite> that is
 <cite>invalid</cite> because its interior rings touch along a line.</p>
@@ -642,10 +633,7 @@ immutable collections of geometric objects.  The collections may be homogeneous
 <span class="go"> &lt;shapely.geometry.linestring.LineString object at 0x...&gt;]</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/geometrycollection.py">Source code</a>, <a class="reference external" href="./code/geometrycollection.png">png</a>, <a class="reference external" href="./code/geometrycollection.hires.png">hires.png</a>, <a class="reference external" href="./code/geometrycollection.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/geometrycollection.png" class="figure" src="_images/geometrycollection.png" />
-</div>
+<p>(<a class="reference external" href="./code/geometrycollection.py">Source code</a>)</p>
 <p>Figure 5. a) a green and a yellow line that intersect along a line and at a
 single point; b) the intersection (in blue) is a collection containing one
 <cite>LineString</cite> and one <cite>Point</cite>.</p>
@@ -728,10 +716,7 @@ sequence of <cite>Point</cite> instances, thereby making copies.</p>
 objects.</p>
 </dd></dl>
 
-<p>(<a class="reference external" href="./code/multilinestring.py">Source code</a>, <a class="reference external" href="./code/multilinestring.png">png</a>, <a class="reference external" href="./code/multilinestring.hires.png">hires.png</a>, <a class="reference external" href="./code/multilinestring.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/multilinestring.png" src="_images/multilinestring.png" />
-</div>
+<p>(<a class="reference external" href="./code/multilinestring.py">Source code</a>)</p>
 <p>Figure 6. On the left, a <cite>simple</cite>, disconnected <cite>MultiLineString</cite>, and on the
 right, a non-simple <cite>MultiLineString</cite>. The points defining the objects are
 shown in gray, the boundaries of the objects in black.</p>
@@ -787,10 +772,7 @@ instances, thereby making copies.</p>
 <span class="go">3</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/multipolygon.py">Source code</a>, <a class="reference external" href="./code/multipolygon.png">png</a>, <a class="reference external" href="./code/multipolygon.hires.png">hires.png</a>, <a class="reference external" href="./code/multipolygon.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/multipolygon.png" src="_images/multipolygon.png" />
-</div>
+<p>(<a class="reference external" href="./code/multipolygon.py">Source code</a>)</p>
 <p>Figure 7. On the left, a <cite>valid</cite> <cite>MultiPolygon</cite> with 2 members, and on the
 right, a <cite>MultiPolygon</cite> that is invalid because its members touch at an
 infinite number of points (along a line).</p>
@@ -1373,10 +1355,7 @@ do not make up the <em>other</em> object.</p>
 in the examples of this section; it will be explained in detail later in this
 manual.</p>
 </div>
-<p>(<a class="reference external" href="./code/difference.py">Source code</a>, <a class="reference external" href="./code/difference.png">png</a>, <a class="reference external" href="./code/difference.hires.png">hires.png</a>, <a class="reference external" href="./code/difference.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/difference.png" src="_images/difference.png" />
-</div>
+<p>(<a class="reference external" href="./code/difference.py">Source code</a>)</p>
 <p>Figure 8. Differences between two approximately circular polygons.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -1412,10 +1391,7 @@ geometric object, and the points in the <cite>other</cite> not in this geometric
 <span class="go">&lt;shapely.geometry.multipolygon.MultiPolygon object at ...&gt;</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/intersection-sym-difference.py">Source code</a>, <a class="reference external" href="./code/intersection-sym-difference.png">png</a>, <a class="reference external" href="./code/intersection-sym-difference.hires.png">hires.png</a>, <a class="reference external" href="./code/intersection-sym-difference.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/intersection-sym-difference.png" src="_images/intersection-sym-difference.png" />
-</div>
+<p>(<a class="reference external" href="./code/intersection-sym-difference.py">Source code</a>)</p>
 <dl class="method">
 <dt id="object.union">
 <code class="descclassname">object.</code><code class="descname">union</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#object.union" title="Permalink to this definition">¶</a></dt>
@@ -1441,10 +1417,7 @@ boundaries.</p>
 <span class="go">&lt;shapely.geometry.multilinestring.MultiLineString object at 0x...&gt;</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/union.py">Source code</a>, <a class="reference external" href="./code/union.png">png</a>, <a class="reference external" href="./code/union.hires.png">hires.png</a>, <a class="reference external" href="./code/union.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/union.png" src="_images/union.png" />
-</div>
+<p>(<a class="reference external" href="./code/union.py">Source code</a>)</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last"><a class="reference internal" href="#object.union" title="object.union"><code class="xref py py-meth docutils literal"><span class="pre">union()</span></code></a> is an expensive way to find the cumulative union
@@ -1538,10 +1511,7 @@ approximate a quarter circle around a point.</p>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">eroded</span> <span class="o">=</span> <span class="n">dilated</span><span class="o">.</span><span class="n">buffer</span><span class="p">(</span><span class="o">-</span><span class="mf">0.3</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/buffer.py">Source code</a>, <a class="reference external" href="./code/buffer.png">png</a>, <a class="reference external" href="./code/buffer.hires.png">hires.png</a>, <a class="reference external" href="./code/buffer.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/buffer.png" src="_images/buffer.png" />
-</div>
+<p>(<a class="reference external" href="./code/buffer.py">Source code</a>)</p>
 <p>Figure 9. Dilation of a line (left) and erosion of a polygon (right). New
 object is shown in blue.</p>
 <p>The default (<cite>resolution</cite> of 16) buffer of a point is a polygonal patch with
@@ -1598,10 +1568,7 @@ three. For two points, the convex hull collapses to a <cite>LineString</cite>; f
 <span class="go">&lt;shapely.geometry.polygon.Polygon object at 0x...&gt;</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/convex_hull.py">Source code</a>, <a class="reference external" href="./code/convex_hull.png">png</a>, <a class="reference external" href="./code/convex_hull.hires.png">hires.png</a>, <a class="reference external" href="./code/convex_hull.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/convex_hull.png" src="_images/convex_hull.png" />
-</div>
+<p>(<a class="reference external" href="./code/convex_hull.py">Source code</a>)</p>
 <p>Figure 10. Convex hull (blue) of 2 points (left) and of 6 points (right).</p>
 <dl class="attribute">
 <dt id="object.envelope">
@@ -1632,10 +1599,7 @@ this degenerate is returned.</p>
 <span class="go">&lt;shapely.geometry.polygon.Polygon object at 0x...&gt;</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/minimum_rotated_rectangle.py">Source code</a>, <a class="reference external" href="./code/minimum_rotated_rectangle.png">png</a>, <a class="reference external" href="./code/minimum_rotated_rectangle.hires.png">hires.png</a>, <a class="reference external" href="./code/minimum_rotated_rectangle.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/minimum_rotated_rectangle.png" src="_images/minimum_rotated_rectangle.png" />
-</div>
+<p>(<a class="reference external" href="./code/minimum_rotated_rectangle.py">Source code</a>)</p>
 <p>Figure 11. Minimum rotated rectangle for a multipoint feature (left) and a
 linestring feature (right).</p>
 <dl class="method">
@@ -1659,18 +1623,12 @@ with a ratio which exceed the limit will be beveled.</p>
 <p class="first admonition-title">Note</p>
 <p class="last">This method is only available for <cite>LinearRing</cite> and <cite>LineString</cite>  objects.</p>
 </div>
-<p>(<a class="reference external" href="./code/parallel_offset.py">Source code</a>, <a class="reference external" href="./code/parallel_offset.png">png</a>, <a class="reference external" href="./code/parallel_offset.hires.png">hires.png</a>, <a class="reference external" href="./code/parallel_offset.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/parallel_offset.png" src="_images/parallel_offset.png" />
-</div>
+<p>(<a class="reference external" href="./code/parallel_offset.py">Source code</a>)</p>
 <p>Figure 12. Three styles of parallel offset lines on the left side of a simple
 line string (its starting point shown as a circle) and one offset on the right
 side, a multipart.</p>
 <p>The effect of the <cite>mitre_limit</cite> parameter is shown below.</p>
-<p>(<a class="reference external" href="./code/parallel_offset_mitre.py">Source code</a>, <a class="reference external" href="./code/parallel_offset_mitre.png">png</a>, <a class="reference external" href="./code/parallel_offset_mitre.hires.png">hires.png</a>, <a class="reference external" href="./code/parallel_offset_mitre.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/parallel_offset_mitre.png" src="_images/parallel_offset_mitre.png" />
-</div>
+<p>(<a class="reference external" href="./code/parallel_offset_mitre.py">Source code</a>)</p>
 <p>Figure 13. Large and small mitre_limit values for left and right offsets.</p>
 <dl class="method">
 <dt id="object.simplify">
@@ -1695,10 +1653,7 @@ Douglas-Peucker algorithm <a class="footnote-reference" href="#id27" id="id20">[
 <span class="go">17</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/simplify.py">Source code</a>, <a class="reference external" href="./code/simplify.png">png</a>, <a class="reference external" href="./code/simplify.hires.png">hires.png</a>, <a class="reference external" href="./code/simplify.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/simplify.png" src="_images/simplify.png" />
-</div>
+<p>(<a class="reference external" href="./code/simplify.py">Source code</a>)</p>
 <p>Figure 14. Simplification of a nearly circular polygon using a tolerance of 0.2
 (left) and 0.5 (right).</p>
 <div class="admonition note">
@@ -1786,10 +1741,7 @@ y_\mathrm{off} &amp;= y_0 - x_0 \sin{\theta} - y_0 \cos{\theta}\end{split}\]</di
 <span class="gp">&gt;&gt;&gt; </span><span class="n">rotated_b</span> <span class="o">=</span> <span class="n">affinity</span><span class="o">.</span><span class="n">rotate</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="s1">&#39;centroid&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/rotate.py">Source code</a>, <a class="reference external" href="./code/rotate.png">png</a>, <a class="reference external" href="./code/rotate.hires.png">hires.png</a>, <a class="reference external" href="./code/rotate.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/rotate.png" src="_images/rotate.png" />
-</div>
+<p>(<a class="reference external" href="./code/rotate.py">Source code</a>)</p>
 <p>Figure 15. Rotation of a <cite>LineString</cite> (gray) by an angle of 90°
 counter-clockwise (blue) using different origins.</p>
 </dd></dl>
@@ -1824,10 +1776,7 @@ z_\mathrm{off} &amp;= z_0 - z_0 z_\mathrm{fact}\end{split}\]</div>
 <span class="go">[(1.0, 1.0), (3.0, 3.0), (5.0, 1.0), (1.0, 1.0)]</span>
 </pre></div>
 </div>
-<p>(<a class="reference external" href="./code/scale.py">Source code</a>, <a class="reference external" href="./code/scale.png">png</a>, <a class="reference external" href="./code/scale.hires.png">hires.png</a>, <a class="reference external" href="./code/scale.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/scale.png" src="_images/scale.png" />
-</div>
+<p>(<a class="reference external" href="./code/scale.py">Source code</a>)</p>
 <p>Figure 16. Scaling of a gray triangle to blue result: a) by a factor of 1.5
 along x-direction, with reflection across y-axis; b) by a factor of 2 along
 x-direction with custom origin at (1, 1).</p>
@@ -1853,10 +1802,7 @@ object or a coordinate tuple <code class="docutils literal"><span class="pre">(x
 <div class="math">
 \[\begin{split}x_\mathrm{off} &amp;= -y_0 \tan{x_s} \\
 y_\mathrm{off} &amp;= -x_0 \tan{y_s}\end{split}\]</div>
-<p>(<a class="reference external" href="./code/skew.py">Source code</a>, <a class="reference external" href="./code/skew.png">png</a>, <a class="reference external" href="./code/skew.hires.png">hires.png</a>, <a class="reference external" href="./code/skew.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/skew.png" src="_images/skew.png" />
-</div>
+<p>(<a class="reference external" href="./code/skew.py">Source code</a>)</p>
 <p>Figure 17. Skewing of a gray &#8220;R&#8221; to blue result: a) by a shear angle of 20°
 along the x-direction and an origin at (1, 1); b) by a shear angle of 30°
 along the y-direction, using default origin.</p>
@@ -2004,10 +1950,7 @@ line-like object.</p>
 <h3>Cascading Unions<a class="headerlink" href="#cascading-unions" title="Permalink to this headline">¶</a></h3>
 <p>The <a class="reference internal" href="#shapely.ops.cascaded_union" title="shapely.ops.cascaded_union"><code class="xref py py-func docutils literal"><span class="pre">cascaded_union()</span></code></a> function in <cite>shapely.ops</cite> is more
 efficient than accumulating with <a class="reference internal" href="#object.union" title="object.union"><code class="xref py py-meth docutils literal"><span class="pre">union()</span></code></a>.</p>
-<p>(<a class="reference external" href="./code/cascaded_union.py">Source code</a>, <a class="reference external" href="./code/cascaded_union.png">png</a>, <a class="reference external" href="./code/cascaded_union.hires.png">hires.png</a>, <a class="reference external" href="./code/cascaded_union.pdf">pdf</a>)</p>
-<div class="figure">
-<img alt="_images/cascaded_union.png" src="_images/cascaded_union.png" />
-</div>
+<p>(<a class="reference external" href="./code/cascaded_union.py">Source code</a>)</p>
 <dl class="function">
 <dt id="shapely.ops.cascaded_union">
 <code class="descclassname">shapely.ops.</code><code class="descname">cascaded_union</code><span class="sig-paren">(</span><em>geoms</em><span class="sig-paren">)</span><a class="headerlink" href="#shapely.ops.cascaded_union" title="Permalink to this definition">¶</a></dt>
